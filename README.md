@@ -28,14 +28,14 @@ primeiro a entrar, primeiro a sair (*FIFO*)** que será implementado para resolv
 
 O algoritmo de paginação o primeiro a entrar, primeiro a sair (*first in, first out*
 — FIFO)
-![](\img\lifo-fifo.png)
+![](./img/lifo-fifo.png)
 
 Para ilustrar o seu funcionamento, vamos imaginar -em um mundo ideal- que você e um amigo estão em uma fila em uma parada de ônibus. Se você está antes dele na fila, entrará primeiro no ônibus, seu amigo depois e esse cenário se repetirá para o restante da fila.
-![](\img\fila.png)
+![](./img/fila.png)
 
 Esse funcionamento é chamado de fila e essa estrutura permite que duas operações sejam realizadas: 
 enfileirar(*enqueue*) e desenfileirar(*dequeue*).
-![](\img\operações.png)
+![](./img/operações.png)
 
 Entendido o que é fila, vamos entender o código da tÉcnica de paginação utilizando a algoritmo FIFO na linguagem de programação C
 
